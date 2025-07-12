@@ -1,0 +1,18 @@
+# Ignorar directorio target (compilaciones de Rust)
+target/
+
+# Ignorar archivos generados del build y compilados
+Cargo.lock
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# No incluir ejecutables binarios
+*.exe
+*.bin
+*.dll
+
+# Logs o archivos temporales
+*.log
+*.tmp
