@@ -16,6 +16,10 @@ Este repositorio contiene la solución al laboratorio de rellenado de polígonos
 - `poligono4`: Polígono 4 (verde) con polígono 5 como agujero
 - `todos-los-poligonos`: Todos los polígonos juntos
 
+## Resultado final
+
+![Todos los polígonos](out.png)
+
 ## Instrucciones de uso
 
 1. **Clona el repositorio:**
