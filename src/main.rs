@@ -2,10 +2,10 @@ use raylib::prelude::*;
 
 type Point = (i32, i32);
 
-// Puntos del segundo polígono
-fn poligono2() -> Vec<Point> {
+// Puntos del tercer polígono
+fn poligono3() -> Vec<Point> {
     vec![
-        (321, 335), (288, 286), (339, 251), (374, 302)
+        (377, 249), (411, 197), (436, 249)
     ]
 }
 
@@ -86,10 +86,10 @@ fn main() {
     let mut image = Image::gen_image_color(image_width, image_height, Color::BLACK);
 
     // Aplica el flip a los puntos
-    let p1 = flip_points(&poligono2(), image_height);
+    let p1 = flip_points(&poligono3(), image_height);
 
     // Rellenar polígono 1 (amarillo)
-    fill_polygon(&mut image, &p1, Color::BLUE);
+    fill_polygon(&mut image, &p1, Color::RED);
 
     // Dibuja el contorno en blanco
     draw_polygon_outline(&mut image, &p1, Color::WHITE);
